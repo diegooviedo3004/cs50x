@@ -1,6 +1,6 @@
 sort1 uses: TODO
 
-burbuja compara elementos adyacentes de dos en dos. Si un elemento es mayor que el que está en la siguiente posición se intercambian
+burbuja compara elementos adyacentes de dos en dos. Si un elemento es mayor que el que está en la siguiente posición se intercambian es el mas lento
 
 How do you know?: TODO
 
@@ -12,7 +12,7 @@ How do you know?: TODO
 
 sort3 uses: TODO
 
-selección
+selección  es el mas rapido
 
 How do you know?: TODO
 
