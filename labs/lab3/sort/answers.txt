@@ -1,17 +1,19 @@
 sort1 uses: TODO
 
-burbuja
+burbuja compara elementos adyacentes de dos en dos. Si un elemento es mayor que el que está en la siguiente posición se intercambian
 
 How do you know?: TODO
 
 sort2 uses: TODO
 
+fusión
+
 How do you know?: TODO
 
 sort3 uses: TODO
 
-fusión 
+selección
 
 How do you know?: TODO
 
-selección
+
