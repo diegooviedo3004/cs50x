@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- dishes section starts  -->
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>EnchiGatos</a>
+    
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a class="active" href="order.html">order</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    
+    </header>
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> Ordenar </h3>
+    <h1 class="heading" style="padding-top: 8px;"> Facil y rapido </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Nombre</span>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="numero" placeholder="numero">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Orden</span>
+                <input type="text" placeholder="nombre de la comida">
+            </div>
+            <div class="input">
+                <span>fecha de entrega</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Direccion</span>
+                <textarea name="" placeholder="agrega tu direccion" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Mensaje</span>
+                <textarea name="" placeholder="agrega tu mensaje" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Ordenar" class="boton">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<!-- dishes section ends -->
+</body>
+</html>
